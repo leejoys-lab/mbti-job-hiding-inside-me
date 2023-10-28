@@ -1,88 +1,89 @@
 export const questions = [
   {
-    number: '01',
-    question: '곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?',
+    number: 'Q1',
+    question: '데이트가 없는<br>주말에 나는',
     choices: [
-      { text: '파티 스텝은 못하지ㅎ...<br>(그래도 파티는 재밌겠다 히히)', value: 'i' },
-      { text: '재밌겠다!<br>○○한테 같이 지원하자고 해야지~', value: 'e' }
+      { text: '단톡에 연락해서 친구들과 약속을 잡는다', value: 'i' },
+      { text: '침대랑 하루 종일 물아일체가 된다', value: 'e' }
     ]
   },
   {
-    number: '02',
-    question: '해외 출장이 잡혔다!<br>전날 잠들기 전 나는?',
+    number: 'Q2',
+    question: '데이트 룩을<br>고를 때 나는',
     choices: [
-      { text: '짐 다 챙겼고 일찍 자야지~', value: 's' },
-      { text: '다 챙겼겠지?<br>여분 옷을 좀 더 챙길까..(뒤척뒤척)', value: 'n' }
+      { text: '나가기 직전 마음에 드는 옷을 입는다', value: 's' },
+      { text: '전날부터 머리부터 발끝까지 세팅해 둔다', value: 'n' }
     ]
   },
   {
-    number: '03',
-    question: '친했던 동기가<br>퇴사를?',
+    number: 'Q3',
+    question: '친구의 소개에<br>소개팅에 나온 나는?',
     choices: [
-      { text: '일하면서 많이 힘들었나?<br>내가 좀 더 챙겨줄걸.', value: 'f' },
-      { text: '아 이직하나?<br>퇴사하고 뭐하냐고 물어봐야지.', value: 't' }
+      { text: '먼저 말 걸면서 분위기를 띄운다', value: 'f' },
+      { text: '말을 걸어올 때까지 기다리고 본다', value: 't' }
     ]
   },
   {
-    number: '04',
-    question: '대규모 프로젝트를 맡게 되어 떨리는 마음에 처음 시작한 건?',
+    number: 'Q4',
+    question: '데이트 중<br>맛있어 보이는 밥집을<br>발견한 나는',
     choices: [
-      { text: '큰 프로젝트인 만큼 계획이 중요해!<br>목적과 목표 먼저 정리해봐야지!', value: 'j' },
-      { text: '당장 미팅 잡고<br>팀원이랑 이야기하면 되겠지?', value: 'p' }
+      { text: '같판에서 맛집의 기운이 느껴진다 맛집 각이야', value: 'j' },
+      { text: '유명하고 리뷰도 많으니까 맛은 보장되어 있겠군', value: 'p' }
     ]
   },
   {
-    number: '05',
-    question: '첫 입사 날!<br>나의 첫 인사말은?',
+    number: 'Q5',
+    question: '썸 중에 연인이<br>집에 놀러 온다고<br>했을 때 나는',
     choices: [
-      { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: '' },
-      { text: '안녕하세요! 저는 자취하고 있고요,<br>MBTI는 ~~ (빨리 친해져야지 >0<) ', value: '' }
+      { text: '보이는 곳만 일단 급하게 치워둔다', value: '' },
+      {
+        text: '쓰레기 버리기부터 화장실 청소까지 싹 한다', value: '' }
     ]
   },
   {
-    number: '06',
-    question: '날씨가 좋아~<br>유난히 일하기 싫은 날엔?',
+    number: 'Q6',
+    question: '오늘 본 영화를<br>궁금해하는<br>연인에게 나는',
     choices: [
-      { text: '날 좋은데 일이라니.<br>그런데 어쩌겠어? 일해야지!', value: '' },
-      { text: '이럴 때 일할 순 없어!!<br>반차 써버릴 거야!', value: '' }
+      { text: '주인공이 좀비 바이러스가 퍼져서 치료하기 위한 이야기야', value: '' },
+      { text: '좀비랑 싸우는데 주인공이 완전 멋져! 보는 내내 소름돋았어', value: '' }
     ]
   },
   {
-    number: '07',
-    question: '상사한테 한 소리 들었다.<br>나는?',
+    number: 'Q7',
+    question: '연인과 사소한 일로<br>다퉜을 때 나는',
     choices: [
-      { text: '더 열심히 해서 잘할 수 있다는<br>사람이란 걸 보여주자!', value: '' },
-      { text: '내가 재능이 없나?<br>퇴사각..', value: '' }
+      { text: '나!!진짜!!너무!!!화났어!!!!!!!!', value: '' },
+      { text: 'ㅇㅇ점은 꼭 고쳤으면 좋겠어. 이렇게 하면 되잖아', value: '' }
     ]
   },
   {
-    number: '08',
-    question: '일을 하는 데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
+    number: 'Q8',
+    question: '데이트 중 길에서<br>연인의 친구를<br>만난다면 나는',
     choices: [
-      { text: '시간을 더 끌 순 없지.<br>팀장님한테 당장 물어봐야지!', value: '' },
-      { text: '어떡하지.. 야근하더라도<br>방법을 더 찾아봐야겠다. ', value: '' }
+      { text: '자연스럽게 웃으며 대화한다', value: '' },
+      { text: '무생물이 되어 조용히 있는다 ', value: '' }
     ]
   },
   {
-    number: '09',
-    question: '좋은 곳에서 이직 제안이 왔다!<br>나의 선택은?',
+    number: 'Q9',
+    question: '축 처진 연인이<br>우울하다고<br>말했을 때 나는',
     choices: [
-      { text: '인생은 도전이야!<br>좋은 기회라고 생각하고 시작해볼래!', value: '' },
-      { text: '지금 회사도 좋은데..<br>위험 부담을 안고 이직하는 게 맞을까?', value: '' }
+      { text: '왜 우울해? 뭐 때문에 우울한 거야?', value: '' },
+      { text: '5초 만에 감정이입 완료.. 같이 글썽거린다', value: '' }
     ]
   },
   {
-    number: '10',
-    question: '회사에서 진급 대상이 되었다.<br>나의 마음은?',
+    number: 'Q10',
+    question: '연인에게 줄 선물을<br>고르게 된 나는',
     choices: [
-      { text: '드디어 회사가 날 알아주는구나!<br>더 열심히 해야지!', value: '' },
-      { text: '진급하면 월급도 오르겠지?<br>월급 오르면 ○○ 사야지~ (상상의 나래~)', value: '' }
+      { text: '실용성은 없어도 예쁘고 기억에 남을 선물', value: '' },
+      { text: '연인에게 요즘 가장 필요할 것 같은 선물', value: '' }
     ]
   },
 ]
 export const results = [
   {
-    title: '출근 시간은<br>내가 정해!',
+    title: '단호박 먹은 연애불도저',
     character: '/images/result_character1.png',
     results: [
       '혼자서 멘탈 케어가 가능해요!<br>소속이 없어도, 벌이가 불안정해도 저는 지금이 좋아요!',
@@ -95,7 +96,7 @@ export const results = [
     lectureUrl: 'https://bit.ly/3Wr0kt6'
   },
   {
-    title: '프로직진러!<br>진행력 갑',
+    title: '망상에 사는 철벽금사빠',
     character: '/images/result_character2.png',
     results: [
       '나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
@@ -108,7 +109,7 @@ export const results = [
     lectureUrl: 'https://bit.ly/3SZl1t9'
   },
   {
-    title: '우리 무기는<br>상상력!',
+    title: '단호박 먹은 연애불도저',
     character: '/images/result_character3.png',
     results: [
       '이것저것 관심이 많은 편이에요.<br>모든 게 궁금해요!',
@@ -121,7 +122,7 @@ export const results = [
     lectureUrl: 'https://bit.ly/3DWlesG'
   },
   {
-    title: '인생은<br>한방!',
+    title: '눈치력 만렙 연애집사`',
     character: '/images/result_character4.png',
     results: [
       '전략적으로 계획을 세우는 걸 좋아해요!',
@@ -134,7 +135,7 @@ export const results = [
     lectureUrl: 'https://bit.ly/3fvoTo5'
   },
   {
-    title: '한 번 집중하면<br>멈출 수 없지!',
+    title: '귀차니즘 만렙 프로긍정러',
     character: '/images/result_character5.png',
     results: [
       '저는 위선과 가식이 없어요.<br>진실만 말하죠. (진지)',
@@ -147,7 +148,7 @@ export const results = [
     lectureUrl: 'https://bit.ly/3U0O3Kj'
   },
   {
-    title: '인생 욜로지~<br>일단 놀자 ><',
+    title: '뒤끝 오지는 사랑집착꾼',
     character: '/images/result_character6.png',
     results: [
       '취미가 100개!<br>이것저것 다재다능해요~',
